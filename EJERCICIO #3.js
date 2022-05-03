@@ -1,0 +1,10 @@
+let num_uno = prompt ("Ingresar primer número");
+console.log("Ingresa un número: " + num_uno);
+let num_dos = prompt("Ingresar segundo número");
+console.log("Ingresa otro número: " + num_dos);
+let suma = +num_uno + +num_dos;
+console.log("Suman: " + suma);
+let num_tres = prompt("Ingresar tercer número");
+console.log("Ingresa un nuevo número: " + num_tres);
+let multiplicación = +num_tres * +suma;
+console.log("Multiplicación de la suma por el último número: " + multiplicación);
